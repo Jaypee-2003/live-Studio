@@ -18,7 +18,7 @@ const App = () => {
                 <Container>
                     <Navbar />
                     <Routes>
-                        <Route path="/" element={<LandingPage />} />
+                        <Route path="/live-studio" element={<LandingPage />} />
                         <Route path="/portfolio" element={<PortfolioPage />} />
                         {/* <Route path="/pricing" element={<PricingPage />} />
                         <Route path="/faq" element={<FAQPage />} />
