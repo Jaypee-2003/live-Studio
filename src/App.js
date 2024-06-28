@@ -7,7 +7,7 @@ import AboutPage from './components/AboutPage';
 import PortfolioPage from './components/PortfolioPage'; // New Page
 // import PricingPage from './components/PricingPage';     // New Page
 // import FAQPage from './components/FAQPage';             // New Page
-// import ContactPage from './components/ContactPage';     // New Page
+import ContactSection from './components/ContactSection';
 import { ThemeContextProvider } from './contexts/ThemeContext';
 import styled from 'styled-components';
 
@@ -18,12 +18,11 @@ const App = () => {
                 <Container>
                     <Navbar />
                     <Routes>
-                        <Route path="/live-studio" element={<LandingPage />} />
                         <Route path="/" element={<LandingPage />} />
                         <Route path="/portfolio" element={<PortfolioPage />} />
                         {/* <Route path="/pricing" element={<PricingPage />} />
-                        <Route path="/faq" element={<FAQPage />} />
-                        <Route path="/contact" element={<ContactPage />} /> */}
+                        <Route path="/faq" element={<FAQPage />} /> */}
+                        <Route path="/contact" element={<ContactSection />} />
                         <Route path="/about" element={<AboutPage />} />
                         <Route path="/gallery" element={<Gallery />} />
                     </Routes>

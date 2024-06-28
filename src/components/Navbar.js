@@ -30,6 +30,7 @@ const Navbar = () => {
                 <NavLink to="/portfolio" onClick={handleMenuToggle}>Portfolio</NavLink>
                 <NavLink to="/about" onClick={handleMenuToggle}>About</NavLink>
                 <NavLink to="/gallery" onClick={handleMenuToggle}>Gallery</NavLink>
+                <NavLink to="/contact" onClick={handleMenuToggle}>Contact</NavLink>
             </NavLinks>
                 <MenuToggle onClick={handleMenuToggle}>
                     <FaBars />
