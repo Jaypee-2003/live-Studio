@@ -3,6 +3,7 @@ import React from 'react';
 import styled from 'styled-components';
 import { useTheme } from '../contexts/ThemeContext';
 import img1 from '../images/img1.jpg';
+import Footer from './Footer';
 
 const PortfolioPage = () => {
     const { theme } = useTheme();
@@ -33,6 +34,8 @@ const PortfolioPage = () => {
                     Your wedding day is a celebration of your love, and I'm here to make sure it's captured beautifully. I'll work with you to create a custom photography timeline that fits your unique vision. Whether you're planning an intimate elopement or a grand ballroom affair, I'll be there to document every moment. From getting ready to the grand exit, I'll be your eyes and ears, capturing the joy, the tears, and everything in between. My goal is to provide you with a seamless, stress-free experience. I'll guide you through the process, answer your questions, and offer advice along the way. My priority is to ensure that you feel comfortable, confident, and cared for from start to finish. I'm more than just a photographer; I'm your trusted partner in creating memories that last a lifetime.
                 </Text>
             </Section>
+            <Footer />
+
         </PageContainer>
     );
 };

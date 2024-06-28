@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 
+
 const ContactPage = () => {
     return (
         <PageContainer>
@@ -30,6 +31,7 @@ const ContactPage = () => {
                         </Form>
                     </Col>
                 </Row>
+                
         </PageContainer>
     );
 };

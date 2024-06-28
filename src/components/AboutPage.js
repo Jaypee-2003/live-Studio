@@ -2,6 +2,8 @@
 import React from 'react';
 import styled from 'styled-components';
 import Gallery from './Gallery';
+import Footer from './Footer';
+
 // import HeroSection from './HeroSection';
 import img1 from '../images/img1.jpg';
 import img2 from '../images/img2.jpg';
@@ -88,6 +90,7 @@ const AboutPage = () => {
                     </BlogPost>
                 </BlogPosts>
             </Section>
+            <Footer />
         </PageContainer>
     );
 };
